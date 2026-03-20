@@ -1,0 +1,62 @@
+{
+  "name": "feedclaw",
+  "version": "0.1.0",
+  "description": "RSS/Atom feed reader and AI digest builder CLI",
+  "type": "module",
+  "bin": {
+    "feedclaw": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "feeds"
+  ],
+  "scripts": {
+    "cli": "node dist/cli.js",
+    "dev": "tsx src/cli.ts",
+    "build": "tsup",
+    "test": "vitest run",
+    "lint": "biome check",
+    "format": "biome format --write",
+    "prepublishOnly": "pnpm build"
+  },
+  "keywords": [
+    "rss",
+    "atom",
+    "feed",
+    "reader",
+    "digest",
+    "ai",
+    "cli",
+    "openclaw"
+  ],
+  "author": "psandis",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@extractus/feed-extractor": "^7.1.3",
+    "better-sqlite3": "^11.7.0",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "openai": "^4.82.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.13.0",
+    "tsup": "^8.3.6",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@10.12.1",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3",
+      "esbuild",
+      "@biomejs/biome"
+    ]
+  }
+}

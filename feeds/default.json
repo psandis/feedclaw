@@ -1,0 +1,29 @@
+{
+  "bundles": {
+    "ai": "AI & LLMs",
+    "dev": "Developer Tools & Engineering",
+    "openclaw": "OpenClaw Ecosystem",
+    "news": "Tech News"
+  },
+  "feeds": [
+    { "url": "https://www.technologyreview.com/feed/", "title": "MIT Technology Review", "category": "ai" },
+    { "url": "https://openai.com/blog/rss.xml", "title": "OpenAI Blog", "category": "ai" },
+    { "url": "https://blog.google/technology/ai/rss/", "title": "Google AI Blog", "category": "ai" },
+    { "url": "https://huggingface.co/blog/feed.xml", "title": "Hugging Face Blog", "category": "ai" },
+    { "url": "https://simonwillison.net/atom/everything/", "title": "Simon Willison", "category": "ai" },
+    { "url": "https://lilianweng.github.io/index.xml", "title": "Lil'Log (Lilian Weng)", "category": "ai" },
+
+    { "url": "https://github.blog/feed/", "title": "GitHub Blog", "category": "dev" },
+    { "url": "https://blog.cloudflare.com/rss/", "title": "Cloudflare Blog", "category": "dev" },
+    { "url": "https://stripe.com/blog/feed.rss", "title": "Stripe Engineering", "category": "dev" },
+    { "url": "https://engineering.fb.com/feed/", "title": "Meta Engineering", "category": "dev" },
+
+    { "url": "https://steipete.me/rss.xml", "title": "Peter Steinberger (steipete)", "category": "openclaw" },
+    { "url": "https://buttondown.com/openclaw-newsletter/rss", "title": "OpenClaw Newsletter", "category": "openclaw" },
+
+    { "url": "https://hnrss.org/frontpage", "title": "Hacker News", "category": "news" },
+    { "url": "https://www.techmeme.com/feed.xml", "title": "Techmeme", "category": "news" },
+    { "url": "https://feeds.arstechnica.com/arstechnica/technology-lab", "title": "Ars Technica", "category": "news" },
+    { "url": "https://www.theverge.com/rss/index.xml", "title": "The Verge", "category": "news" }
+  ]
+}
