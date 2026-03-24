@@ -4,7 +4,7 @@
   "description": "RSS/Atom feed reader and AI digest builder CLI",
   "repository": {
     "type": "git",
-    "url": "https://github.com/psandis/feedclaw.git"
+    "url": "git+https://github.com/psandis/feedclaw.git"
   },
   "homepage": "https://github.com/psandis/feedclaw",
   "type": "module",
