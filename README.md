@@ -289,6 +289,7 @@ Current bar:
 
 - 🦀 [Dustclaw](https://github.com/psandis/dustclaw) — Find out what is eating your disk space
 - 🦀 [Driftclaw](https://github.com/psandis/driftclaw) — Deployment drift detection across environments
+- 🦀 [OpenClaw](https://github.com/openclaw/openclaw) — The open claw ecosystem
 
 ## License
 
