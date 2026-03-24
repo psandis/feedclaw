@@ -4,6 +4,8 @@
 
 # 🦀 Feedclaw
 
+[![npm](https://img.shields.io/npm/v/feedclaw?style=flat-square)](https://www.npmjs.com/package/feedclaw)
+
 RSS/Atom feed reader and AI digest builder. Fetch feeds, store articles locally, generate AI-powered summaries. Works standalone or as an OpenClaw skill.
 
 ## What It Does
