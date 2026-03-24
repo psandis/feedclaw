@@ -1,6 +1,6 @@
 {
   "name": "feedclaw",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "RSS/Atom feed reader and AI digest builder CLI",
   "repository": {
     "type": "git",
