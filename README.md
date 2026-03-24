@@ -285,6 +285,11 @@ Current bar:
 - 28 tests across feeds, fetcher, and digest modules
 - temp SQLite databases per test, cleaned up automatically
 
+## Related
+
+- 🦀 [Dustclaw](https://github.com/psandis/dustclaw) — Find out what is eating your disk space
+- 🦀 [Driftclaw](https://github.com/psandis/driftclaw) — Deployment drift detection across environments
+
 ## License
 
 See [MIT](LICENSE)
