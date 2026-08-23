@@ -36,7 +36,9 @@ ${articleList}`;
 
 async function callAnthropic(prompt: string, model: string): Promise<string> {
   if (!process.env.ANTHROPIC_API_KEY) {
-    throw new Error("ANTHROPIC_API_KEY is not set. Export it in your environment to use the digest command.");
+    throw new Error(
+      "ANTHROPIC_API_KEY is not set. Export it in your environment to use the digest command.",
+    );
   }
   const { default: Anthropic } = await import("@anthropic-ai/sdk");
   const client = new Anthropic();
@@ -52,7 +54,9 @@ async function callAnthropic(prompt: string, model: string): Promise<string> {
 
 async function callOpenAI(prompt: string, model: string): Promise<string> {
   if (!process.env.OPENAI_API_KEY) {
-    throw new Error("OPENAI_API_KEY is not set. Export it in your environment to use the digest command.");
+    throw new Error(
+      "OPENAI_API_KEY is not set. Export it in your environment to use the digest command.",
+    );
   }
   const { default: OpenAI } = await import("openai");
   const client = new OpenAI();

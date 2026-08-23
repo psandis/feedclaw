@@ -78,7 +78,6 @@ pnpm cli init
 ✓ OpenAI Blog
 ✓ Google AI Blog
 ✓ Hugging Face Blog
-✓ Simon Willison
 ✓ Lil'Log (Lilian Weng)
 ✓ GitHub Blog
 ✓ Cloudflare Blog
@@ -91,7 +90,7 @@ pnpm cli init
 ✓ Ars Technica
 ✓ The Verge
 
-16 feeds added. Run fetch to pull articles.
+15 feeds added. Run fetch to pull articles.
 ```
 
 Notes:
@@ -123,8 +122,6 @@ pnpm cli list
      https://www.technologyreview.com/feed/
   2  OpenAI News · fetched 2026-03-20 17:30:13
      https://openai.com/blog/rss.xml
-  5  Simon Willison's Weblog · fetched 2026-03-20 17:30:12
-     https://simonwillison.net/atom/everything/
 
 [dev]
   7  The GitHub Blog · fetched 2026-03-20 17:30:12
@@ -147,7 +144,6 @@ pnpm cli fetch
 
 ✓ MIT Technology Review: 10 new
 ✓ OpenAI News: 891 new
-✓ Simon Willison's Weblog: 30 new
 ✓ The GitHub Blog: 10 new
 ✓ The Cloudflare Blog: 20 new
 ✓ Hacker News: Front Page: 20 new
@@ -259,7 +255,7 @@ Default feeds live in `feeds/default.json`. Edit the file or submit a PR to add 
 
 | Bundle | Feeds |
 |--------|-------|
-| `ai` | MIT Technology Review, OpenAI, Google AI, Hugging Face, Simon Willison, Lil'Log |
+| `ai` | MIT Technology Review, OpenAI, Google AI, Hugging Face, Lil'Log |
 | `dev` | GitHub Blog, Cloudflare, Stripe Engineering, Meta Engineering |
 | `openclaw` | Peter Steinberger (steipete), OpenClaw Newsletter |
 | `news` | Hacker News, Techmeme, Ars Technica, The Verge |

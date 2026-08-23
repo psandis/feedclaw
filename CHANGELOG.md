@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.3 — 2026-08-23
+
+- Updated all dependencies to latest major versions (Anthropic SDK, OpenAI SDK, better-sqlite3, commander, chalk, feed-extractor, Biome, TypeScript, Vitest, tsx, @types/node)
+- Migrated `biome.json` to Biome 2.x config format
+- Removed Simon Willison's feed from default `ai` bundle (unreachable)
+
 ## 0.1.0 — 2026-03-20
 
 Initial release.
