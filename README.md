@@ -288,6 +288,12 @@ Current bar:
 - 🦀 [Dustclaw](https://github.com/psandis/dustclaw) — Find out what is eating your disk space
 - 🦀 [Driftclaw](https://github.com/psandis/driftclaw) — Deployment drift detection across environments
 - 🦀 [Dietclaw](https://github.com/psandis/dietclaw) — Codebase health monitor
+- 🦀 [Logclaw](https://github.com/psandis/logclaw) — Log investigator that groups stack traces and summarizes errors with AI
+- 🦀 [Mymailclaw](https://github.com/psandis/mymailclaw) — Email scanner, categorizer, and cleaner
+- 🦀 [Asciiclaw](https://github.com/psandis/asciiclaw) — Convert images to ASCII art in the terminal
+- 🦀 [Unasciiclaw](https://github.com/psandis/unasciiclaw) — Convert ASCII art back to an image
+- 🐾 [Wirewatch](https://github.com/psandis/wirewatch) — Network traffic monitoring with AI-assisted anomaly detection
+- 🐾 [Psclawmcp](https://github.com/psandis/psclawmcp) — MCP server exposing the OpenClaw CLI tools to AI assistants
 - 🦀 [OpenClaw](https://github.com/openclaw/openclaw) — The open claw ecosystem
 
 ## License
